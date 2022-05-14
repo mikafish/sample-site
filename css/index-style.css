@@ -1,5 +1,10 @@
 
     html {
+        background-image: url(/img/donut-gc1f280256_1920.jpg);
+        background-position: relative;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         box-sizing: border-box;
         margin: 0%;
         box-sizing: border-box;
@@ -11,11 +16,15 @@
         box-sizing: inherit;
     }
     body {
+     
         background-image: url(/img/donut-gc1f280256_1920.jpg);
         background-position: relative;
-        background-size: 100%;
+        width: 100%;
         background-repeat: no-repeat;
         background-attachment: fixed;
+        box-sizing: border-box;
+        margin: 0%;
+        box-sizing: border-box;
         
     }
    
@@ -92,5 +101,27 @@ button:hover{
   }
   
   
-  
+  .menu {
+    position: relative;
+    left: 40%;
+}
+
+.menu{
+    text-align: center;
+    width: 20%;
+	background-color:rgb(226, 166, 203);
+    border-radius: 0%;
+	color: white;
+	padding: .5rem;
+	transition: background-color 1s linear;
+}
+
+.recipe a:hover{
+    text-align: center;
+    width: 10%;
+	background-color: rgb(227, 168, 203);
+    color: azure;
+	padding: none;
+	transition: all .5s ease;
+}
   

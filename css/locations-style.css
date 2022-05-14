@@ -10,12 +10,15 @@ html {
   box-sizing: inherit;
 }
 body {
-  background-image: url(/img/donut-gc1f280256_1920.jpg);
-  background-position: relative;
+  background-image: url(/img/donut-6536080_960_720.jpg);
+
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   
+}
+.locations{
+  text-align: center;
 }
 
   nav{
