@@ -2,6 +2,11 @@ html {
   box-sizing: border-box;
   margin: 0%;
   box-sizing: border-box;
+  background-image: url(/img/donut-4475458_960_720.jpg);
+  background-position: relative;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
 }
 
 * ,
@@ -9,14 +14,7 @@ html {
 * ::after {
   box-sizing: inherit;
 }
-body {
-  background-image: url(/img/donut-gc1f280256_1920.jpg);
-  background-position: relative;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  
-}
+
 h1,
 h2,
 h3,
@@ -26,14 +24,24 @@ h4{
   font-size: 1.5rem;
 }
 h1{
+  color:aliceblue;
   font-size: 2.5rem;
   text-align: center;
   text-decoration: underline;
 }
-p1{
-  display: inline block;
+p{
+  text-align: center;
 }
-
+main{
+  background: rgba(0,0,0,.5);
+  padding-bottom: 50px;
+  padding-left: 10px;
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
 nav{
   width: 100%;
   background-color: black;
@@ -44,7 +52,7 @@ nav{
 }
 
 ul {
-  color: white;
+  color:aliceblue;
   display: flex;
   justify-content: space-around;
   list-style-type: none;
@@ -56,19 +64,16 @@ ul {
 a {
   text-transform: uppercase;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color:aliceblue;
 
 }
-#page-container {
-  position: relative;
-  min-height: 100vh;
+.menu{
+  text-align: justify;
+  line-height:15px;
+  height: 400px;
+  color:aliceblue;
 }
-
-#content-wrap {
-  padding-bottom: 2.5rem;    
-}
-
-#footer {
+footer {
   color: aliceblue;
   position: absolute;
   bottom: 0;
