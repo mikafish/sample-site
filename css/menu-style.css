@@ -1,4 +1,18 @@
+/* 
+Header Font 
+  font-family: "oswald', sans-serif";
+Paragraph font
+  font-family: 'Times New Roman', Times, serif;
+  
+
+*/
+
+
+
+
+
 html {
+
   box-sizing: border-box;
   margin: 0%;
   box-sizing: border-box;
@@ -19,17 +33,22 @@ h1,
 h2,
 h3,
 h4{
+  text-transform: uppercase;
+  font-family: "oswald', sans-serif";
   text-align: center;
   text-decoration:underline;
   font-size: 1.5rem;
 }
 h1{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
   color:aliceblue;
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-align: center;
   text-decoration: underline;
 }
-p{
+p{ font-family: 'Times New Roman', Times, serif;
+  
   text-align: center;
 }
 main{
